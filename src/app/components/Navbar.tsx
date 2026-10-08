@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Navigation from "./Navigation";
 
 const Navbar = () => {
   return (
@@ -29,6 +30,9 @@ const Navbar = () => {
         </div>
       </div>
         </section>
+    </div>
+    <div className="container mx-auto">
+      <Navigation></Navigation>
     </div>
     </div>
   );
