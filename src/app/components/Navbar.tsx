@@ -38,13 +38,6 @@ const Navbar = () => {
       <div>
         <MarqueeLink></MarqueeLink>
       </div>
-      <div>
-        <Hero></Hero>
-      </div>
-      <div>
-        <Pricetag></Pricetag>
-      </div>
-     
     </div>
   );
 };
