@@ -4,6 +4,7 @@ import Navigation from "./Navigation";
 import Marquee from "react-fast-marquee";
 import MarqueeLink from "./Marquee";
 import Hero from "./Hero";
+import Pricetag from "./Pricetag";
 
 const Navbar = () => {
   return (
@@ -36,7 +37,12 @@ const Navbar = () => {
       <div>
         <MarqueeLink></MarqueeLink>
       </div>
-      <Hero></Hero>
+      <div>
+        <Hero></Hero>
+      </div>
+      <div>
+        <Pricetag></Pricetag>
+      </div>
     </div>
   );
 };

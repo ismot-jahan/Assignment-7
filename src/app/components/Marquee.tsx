@@ -31,11 +31,11 @@ const MarqueeLink = async() => {
             <span>{l.image}</span>
             <span className="">{l.nameBn}</span>
             <span>
-              {toBanglaNumber(l.today)}/{l.unit}
+              {toBanglaNumber(l.today)} টাকা/কেজি
             </span>
             <span
               className={
-                l.change.dir === "up" ? "text-red-500" : "text-green-400"
+                l.change.dir === "up" ? "text-red-500" : "text-green-500"
               }
             >
               {l.change.dir === "up" ? "▲" : "▼"} { toBanglaNumber(Math.abs(l.change.pct))}%
