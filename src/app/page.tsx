@@ -5,7 +5,7 @@ import Navigation from './components/Navigation';
 const page = () => {
   return (
     <>
-      <Navbar></Navbar>
+    
      
     </>
   );

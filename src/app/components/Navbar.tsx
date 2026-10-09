@@ -5,6 +5,7 @@ import Marquee from "react-fast-marquee";
 import MarqueeLink from "./Marquee";
 import Hero from "./Hero";
 import Pricetag from "./Pricetag";
+import Footer from "./Footer";
 
 const Navbar = () => {
   return (
@@ -43,6 +44,7 @@ const Navbar = () => {
       <div>
         <Pricetag></Pricetag>
       </div>
+     
     </div>
   );
 };
